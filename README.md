@@ -4,7 +4,7 @@
 
 就像有人写了个"安全审查 Skill"专门审查别的 Skill 有没有风险——「包工头」也是一个作用于 Skill 的 Skill,只不过它管的是"看懂 + 上手 + 监督 + 调整"。
 
-> 📖 想看更完整的来龙去脉和设计思路,可以读这篇长文:[公众号 · 包工头详解](https://mp.weixin.qq.com/s/V_un4iN_I3z5N1ZpY1gFKA)
+> 📖 想看更完整的来龙去脉和设计思路,可以读这篇长文:[《我做了个最懒的 Skill,专门盯着别的 Skill 干活》](https://mp.weixin.qq.com/s/V_un4iN_I3z5N1ZpY1gFKA)
 
 ## 为什么做这个
 
