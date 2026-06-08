@@ -1,0 +1,14 @@
+{
+  "name": "aiisnothing",
+  "owner": {
+    "name": "AIisNothing"
+  },
+  "description": "AIisNothing 的 Claude 插件市场,目前收录「包工头(Foreman)」——一个监督运行其它 Skill 的工具。",
+  "plugins": [
+    {
+      "name": "foreman",
+      "source": "./",
+      "description": "包工头(Foreman)— 作用于其它 Skill 的 Skill:解释 + 监督运行 + 关键处让你拍板,把活交给 AI、把掌控留给自己。"
+    }
+  ]
+}

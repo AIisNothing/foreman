@@ -64,16 +64,20 @@
 
 ## 怎么安装
 
-把整个 `foreman/` 文件夹放进 `~/.claude/skills/`(和你装别的 Skill 一样):
+在 Claude Code 里跑两条命令(它是一个 plugin):
 
 ```
-git clone https://github.com/AIisNothing/foreman.git ~/.claude/skills/foreman
+/plugin marketplace add AIisNothing/foreman
+/plugin install foreman@aiisnothing
 ```
 
-**更新到最新版**(以后修了 bug,拉一下就有):
+装完重启一下 Claude Code 即可。之后直接说"**让包工头运行一下 某某 skill**"就行。
+
+**更新到最新版**:
 
 ```
-cd ~/.claude/skills/foreman && git pull
+/plugin marketplace update aiisnothing
+/plugin update foreman@aiisnothing
 ```
 
 > 📝 每次更新了什么、为什么改 → 见 [CHANGELOG.md](CHANGELOG.md)。
@@ -118,16 +122,13 @@ cd ~/.claude/skills/foreman && git pull
 
 ```
 foreman/
-├── SKILL.md            # 核心:包工头的行为规范
-├── README.md           # 本文件
-├── LICENSE             # MIT
-├── templates/          # 输出模板
-│   ├── skill-card.md       # 解释:产品卡片
-│   ├── run-flow.md         # 监督运行:流程地图框架
-│   ├── fork.md             # 关键决策提问格式
-│   └── trial-summary.md    # 试用总结
-├── examples/           # 走查示例
-│   ├── guizang-demo.md     # 出图类 Skill
-│   └── weread-demo.md      # 非渲染类(含"跳过+代价"、隐私确认)
-└── docs/               # README 配图
+├── .claude-plugin/
+│   ├── plugin.json         # 插件清单
+│   └── marketplace.json    # 市场清单(供 /plugin marketplace add)
+├── skills/foreman/
+│   ├── SKILL.md            # 核心:包工头的行为规范
+│   └── templates/          # 输出模板(产品卡片/流程地图/关键决策/试用总结)
+├── examples/               # 走查示例(guizang 出图类、weread 非渲染类)
+├── docs/                   # README 配图
+├── README.md  CHANGELOG.md  LICENSE
 ```

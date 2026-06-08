@@ -5,6 +5,12 @@
 
 ---
 
+### 打包成 plugin,可以 `/plugin` 一键装了
+
+从"裸 skill(git clone 进 skills 目录)"改成了标准的 **plugin + marketplace** 结构。现在安装是:
+`/plugin marketplace add AIisNothing/foreman` → `/plugin install foreman@aiisnothing`,比 clone 更省事;也因此**够格上官方社区市场和各 plugin 聚合站**了。
+**触发方式不变**——还是"让包工头运行一下 X"。
+
 ### owner 意识:卡住了先想办法,别撂挑子
 
 碰到搞不定的环节(比如某段内容拿不到),以前会直接说"做不了"。现在改成:**先评估这缺口影响大不大**——影响小就跳过 + 说明、不磨蹭;影响大就主动想办法补(必要时把"要装某工具 / 联网找"作为关键决策请你拍板);实在补不了,再诚实交代现状(试过啥、为什么不行、影响在哪)。

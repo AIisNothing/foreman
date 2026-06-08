@@ -1,0 +1,11 @@
+{
+  "name": "foreman",
+  "description": "包工头(Foreman)— 一个作用于其它 Skill 的 Skill:让你看懂、监督、并在关键处插手任何一个 Skill,而不是把任务丢进黑盒干等结果。",
+  "version": "0.1.0",
+  "author": {
+    "name": "AIisNothing"
+  },
+  "homepage": "https://github.com/AIisNothing/foreman",
+  "repository": "https://github.com/AIisNothing/foreman",
+  "license": "MIT"
+}
