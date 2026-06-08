@@ -74,6 +74,8 @@ git clone https://github.com/AIisNothing/foreman.git ~/.claude/skills/foreman
 cd ~/.claude/skills/foreman && git pull
 ```
 
+> 📝 每次更新了什么、为什么改 → 见 [CHANGELOG.md](CHANGELOG.md)。
+
 ## 怎么用
 
 **喊一声"包工头",像喊人干活一样**——后面想让它干啥随便说:
